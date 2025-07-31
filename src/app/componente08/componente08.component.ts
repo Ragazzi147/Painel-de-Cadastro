@@ -12,5 +12,9 @@ export class Componente08Component {
   media: number = 8;
 
   //Vetor
-  nomes: string[] = ['Ralf', 'Ana', 'Danilo', 'Camila']
+  nomes: string[] = ['Ralf', 'Ana', 'Danilo', 'Camila'];
+
+  //Linguagem
+
+  linguagem: string = 'HTML';
 }

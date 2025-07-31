@@ -9,3 +9,8 @@
 @for (n of nomes; track $index) {
 <p>{{$index}} - {{n}}</p>
 }
+
+@switch (linguagem) {
+@case ('HTML'){<p>linguagem de marcação</p>}
+@default { <p>linguagem desconhecida</p> }
+}
