@@ -9,5 +9,6 @@ import { Component } from '@angular/core';
 })
 export class Componente08Component {
   //Variavel de media 
-  media: number = 3;
+  media: number = 8
+    ;
 }
