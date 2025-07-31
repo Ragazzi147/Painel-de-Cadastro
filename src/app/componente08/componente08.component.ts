@@ -9,6 +9,8 @@ import { Component } from '@angular/core';
 })
 export class Componente08Component {
   //Variavel de media 
-  media: number = 8
-    ;
+  media: number = 8;
+
+  //Vetor
+  nomes: string[] = ['Ralf', 'Ana', 'Danilo', 'Camila']
 }
