@@ -24,6 +24,8 @@ export class Componente11Component {
 
   //vetor
   vetor: Pessoa[] = [];
+  // armazenar indice da pessoa selecionada
+  indice: number = -1;
 
   //funcao de cadastro
   cadastrar() {
@@ -36,4 +38,22 @@ export class Componente11Component {
     //visualizacao via console
     //console.table(this.vetor);
   }
+  // fucao de selecao
+  selecionar(indice: number) {
+
+    //atribuir o indice da pessoa
+    this.indice = indice;
+
+    //atribuir os dados da pessoa no formulario
+    this.formulario.setValue({
+      nome: this.vetor[indice].nome,
+      idade: this.vetor[indice].idade,
+      cidade: this.vetor[indice].cidade
+    });
+
+    // visibilidade dos botoes
+    this.btnCadastrar = false
+
+  }
+
 }
