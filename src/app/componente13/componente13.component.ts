@@ -50,4 +50,15 @@ export class Componente13Component {
     })
 
   }
+
+  //metodo para selecionar um produto especifico
+  selecionarProduto(indice: number) {
+    this.formulario.setValue({
+      id: this.vetor[indice].id,
+      nome: this.vetor[indice].nome,
+      valor: this.vetor[indice].valor
+    });
+
+    this.btnCadastrar = false;
+  }
 }
