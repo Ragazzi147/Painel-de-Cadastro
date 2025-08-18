@@ -15,6 +15,10 @@ export class Componente13Component {
   // Vetor
   vetor: Produto[] = [];
 
+  //visibilidade dos botoes
+
+  btnCadastrar: boolean = true
+
   //Construtor
 
   constructor(private servico: ProdutoService) { }
