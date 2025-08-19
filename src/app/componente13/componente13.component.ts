@@ -61,4 +61,26 @@ export class Componente13Component {
 
     this.btnCadastrar = false;
   }
+
+  //metodo para alterar produtos
+
+  alterar() {
+    this.servico.alterar(this.formulario.value as Produto)
+      .subscribe(retorno => {
+
+        //obter o indice do obj alterado
+        let indiceAlterado = this.vetor.findIndex(obj => {
+          return this.formulario.value.id === obj.id
+        });
+        //Alterar o vetor
+        this.vetor[indiceAlterado] = retorno;
+
+        //Limpar o formulario
+        this.formulario.reset();
+
+        //Visibilidade dos botoes
+        this.btnCadastrar = true;
+
+      })
+  }
 }
