@@ -64,3 +64,15 @@ Para remover um produto:
 Clique no botão "Selecionar" ao lado do produto desejado na tabela.
 
 Clique em "Remover" para excluí-lo. O item desaparecerá da tabela, e o formulário voltará ao estado inicial, pronto para um novo cadastro.
+
+
+1.<img width="1920" height="885" alt="image" src="https://github.com/user-attachments/assets/717d0d7f-bcc0-4c2d-9543-1c0437972902" />
+
+
+2.<img width="1918" height="795" alt="image" src="https://github.com/user-attachments/assets/76c44927-fcd2-4366-b10f-f5875cdb74ac" />
+
+
+3.<img width="1920" height="785" alt="image" src="https://github.com/user-attachments/assets/d37f5401-cdbe-4b81-88eb-dde41aa4f1db" />
+
+
+4.<img width="1920" height="767" alt="image" src="https://github.com/user-attachments/assets/07c52a85-3ba8-45be-b9a4-faeeae34df5c" />
