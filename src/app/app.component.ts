@@ -17,12 +17,13 @@ import { Componente13Component } from "./componente13/componente13.component";
 import { Componente14Component } from "./componente14/componente14.component";
 import { Componente15Component } from "./componente15/componente15.component";
 import { HomeComponent } from "./home/home.component";
+import { Componente16Component } from "./componente16/componente16.component";
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, Componente01Component, Componente02Component, Componente03Component, Componente04Component, Componente05Component, Componente06Component, Componente07Component, Componente08Component, Componente09Component, Componente10Component, Componente11Component, Componente12Component, Componente13Component, Componente14Component, Componente15Component, HomeComponent],
+  imports: [CommonModule, RouterOutlet, Componente01Component, Componente02Component, Componente03Component, Componente04Component, Componente05Component, Componente06Component, Componente07Component, Componente08Component, Componente09Component, Componente10Component, Componente11Component, Componente12Component, Componente13Component, Componente14Component, Componente15Component, HomeComponent, Componente16Component],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
