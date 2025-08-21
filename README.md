@@ -76,3 +76,6 @@ Clique em "Remover" para excluí-lo. O item desaparecerá da tabela, e o formul�
 
 
 4.<img width="1920" height="767" alt="image" src="https://github.com/user-attachments/assets/07c52a85-3ba8-45be-b9a4-faeeae34df5c" />
+
+
+https://painel-de-cadastro.netlify.app/pagina1
