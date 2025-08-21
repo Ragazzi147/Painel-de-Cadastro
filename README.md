@@ -1,14 +1,14 @@
 <h1>💻 Guia do Componente: Gerenciamento de Produtos </h1>
-Este componente (Componente13) é uma demonstração completa de como construir uma interface de gerenciamento de dados em Angular, combinando a lógica de um componente TypeScript com sua respectiva interface HTML.
+Este componente (Componente11) é uma demonstração completa de como construir uma interface de gerenciamento de dados em Angular, combinando a lógica de um componente TypeScript com sua respectiva interface HTML.
 
-Estrutura do HTML (componente13.component.html)
+Estrutura do HTML (componente11.component.html)
 O template HTML é dividido em duas seções principais:
 
 Formulário: Na parte superior, há um formulário reativo (<form [formGroup]="formulario">) com campos para ID, nome e valor do produto. Os botões de ação ("Cadastrar", "Alterar", "Remover") têm sua visibilidade controlada dinamicamente pelo Angular (*ngIf), dependendo se um produto foi selecionado na tabela.
 
 Tabela: Abaixo, uma tabela exibe a lista de produtos. Ela usa a diretiva *ngFor para iterar sobre o array vetor e renderizar uma linha para cada produto. O botão "Selecionar" em cada linha ativa o método selecionarProduto(indice), preenchendo o formulário com os dados daquele item.
 
-Lógica do Componente (componente13.component.ts)
+Lógica do Componente (componente11.component.ts)
 O código TypeScript gerencia o estado da aplicação e a interação com o serviço de produtos:
 
 formulario: FormGroup: Conecta os campos da interface com os dados no código.
